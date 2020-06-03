@@ -5,7 +5,7 @@ excerpt_separator:  <!--more-->
 ---
 
 HTTP web servers are everywhere. They run everything from our search engines to our social media websites. Have you ever wondered how an HTTP web server works? This post dives a bit deeper into how to build your own web server.
-
+<!--more-->
 To understand web servers, you first need to understand the basics of computer networking for the Internet. The Internet is built upon layers of abstraction in something called the Internet protocol stack. The five layers are the application layer, transport layer, network layer, link layer, and physical layer. We are primarily concerned with the application layer (HTTP) and transport layer (TCP).
 
 HTTP stands for Hyper Text Transfer Protocol which is a protocol that web servers and clients use to communicate with each other. You can read about the HTTP protocol definition in the IETF (Internet Engineering Task Force) RFCs (Request for Comments). HTTP gives a common standard for applications to talk to each other.
